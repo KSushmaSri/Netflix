@@ -1,5 +1,5 @@
 *{
-    background-color: #222;
+    background-color: #222; 
     color: #fff;
     margin: 0;      /*margin,padding,box-sizing compulsary*/
     padding: 0;
@@ -13,7 +13,7 @@
     color: yellow;
 }
 .banner{
-    background-image: url("king the land.jpg");
+    background-image: url("king the land.jpg"); 
     background-size: cover;
     background-position: center center;
     max-width: 100%;
@@ -22,4 +22,25 @@
 }
 .posters{
     display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin:0% 0.5%;                   /*margin for images*/
+    border-radius: 0.4%;                                /*padding for elements*/
+}
+h1{
+    padding: 1rem 0rem 0rem 0.9rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 2% 0;
 }
