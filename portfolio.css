@@ -1,5 +1,5 @@
 *{
-    background-color: #222; 
+    background-color: #222;
     color: #fff;
     margin: 0;      /*margin,padding,box-sizing compulsary*/
     padding: 0;
@@ -30,8 +30,8 @@
     display: none;
 }
 .poster{
-    margin:0% 0.5%;                   /*margin for images*/
-    border-radius: 0.4%;                                /*padding for elements*/
+    margin:0% 2%;                   /*margin for images*/
+    border-radius: 0.8%;                                /*padding for elements*/
 }
 h1{
     padding: 1rem 0rem 0rem 0.9rem;
