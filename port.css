@@ -8,7 +8,7 @@ body{
     color:#fff
 }
 .banner{
-    background: linear-gradient(120deg, #181818 20%, hsla(0, 0%, 9%, .98) 10%, hsla(0, 0%, 9%, .97) 15%,hsla(0, 0%, 9%, .95) 20%);
+    background: linear-gradient(120deg, #181818 20%, hsla(0, 0%, 9%, .98) 10%, hsla(0, 0%, 9%, .97) 15%,hsla(0, 0%, 9%, .95) 20%,);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
