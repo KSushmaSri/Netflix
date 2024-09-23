@@ -8,7 +8,7 @@ body{
     color:#fff
 }
 .banner{
-    background: linear-gradient(120deg, #181818 20%, hsla(0, 0%, 9%, .98) 10%, hsla(0, 0%, 9%, .97) 15%,hsla(0, 0%, 9%, .95) 20%,);
+    background: linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%), url("king the land.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,4 +18,31 @@ body{
 .bannercontent .bannertitle img{
     object-fit: contain;
     max-width: 30%;
+}
+.bannercontent{
+    padding: 20% 10%;
+}
+.bannercontent .bannertitle h1{ 
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0;
+}
+.bannercontent .bannertitle h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #181818;
+    font-weight: 300;
+    font-size: 30px;
+}
+.bannercontent .bannertitle span{
+    padding: 0px 5px;
+}
+.box{
+    border: 2px solid #a3a3a3;
+    padding: 4px 8px;
+}
+.bannercontent .bannertitle p{
+    max-width: 40%;
+    padding: 20px 0;
+    font-size: 30px;
 }
