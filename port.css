@@ -9,7 +9,7 @@ body{
 }
 nav{
     display: flex;
-    padding: 0 20px ;
+    padding: 0 40px ;
     justify-content: space-between;
 }
 nav .profile{
@@ -22,7 +22,7 @@ nav .logo img{
 }
 nav .profile .joinnow{
     background-color: red;
-    padding: 5px 55px;
+    padding: 2px 4px;
     border: none;
     border-radius: 2px;
     cursor: pointer;
@@ -34,17 +34,15 @@ nav .profile .joinnow{
 }
 nav .profile .joinnow:hover{
     background-color: #fff;
-color: #181818;
-transition:0.2s ;
+    color: #181818;
+    transition:0.2s ;
 }
 nav .profile .signin{
     background-color: transparent;
     color: #fff;
-    padding: 10px 40px;
+    padding: 2px 4px;
     border: 2px solid #fff;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: 600;
+
 }
 nav .profile .signin:hover{
     background-color: #fff;
@@ -53,7 +51,7 @@ nav .profile .signin:hover{
 }
 
 .banner{
-    background:linear-gradient(120deg, #181818 20%, hsla(0, 0%, 9%, .98) 10%, hsla(0, 0%, 9%, .97) 15%, hsla(0, 0%, 9%, .95) 20%, hsla(0, 0%, 9%, .94) 25%, hsla(0, 0%, 9%, .92) 30%, hsla(0, 0%, 9%, .9) 35%, hsla(0, 0%, 9%, .87) 40%, hsla(0, 0%, 9%, .82) 45%, hsla(0, 0%, 9%, .75) 50%, hsla(0, 0%, 9%, .63) 55%, hsla(0, 0%, 9%, .45) 60%, hsla(0, 0%, 9%, .27) 65%, hsla(0, 0%, 9%, .15) 70%, hsla(0, 0%, 9%, .08) 80%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0) ),url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYoTIInsmO2HJnPJm2E8n5Fm4eQPUBRksw-Oib-qDEN5wQS0d9bTxyY1hVlCvq3kt6fNBTr0IweXAb_ow7r7R3xv860TW_pv3LqN.jpg?r=8c2&quot");
+    background:linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),url("https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,20 +68,19 @@ nav .profile .signin:hover{
 .bannercontent .bannertitle h1{
     font-size:70px ;
     font-style:italic;
-    padding: 10px 0px;
+    padding: 1px 10px;
 }
 .bannercontent .bannertitle h3{
     color: #a3a3a3;
-    padding: 10px 0px;
+    padding: 1px 10px;
 
 }
 .bannercontent .bannertitle span{
     padding: 0 5px;
 }
 .bannercontent .bannertitle .a1{
-
-padding: 4px 8px;
-border:2px solid #a3a3a3;
+    padding: 4px 8px;
+    border:2px solid #a3a3a3;
 }
 .bannercontent .bannertitle p{
     max-width: 30%;
