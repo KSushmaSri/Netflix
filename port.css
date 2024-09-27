@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     box-sizing:border-box;
 }
 body{
@@ -9,7 +9,7 @@ body{
 }
 nav{
     display: flex;
-    padding: 0 40px ;
+    padding: 0 10px ;
     justify-content: space-between;
 }
 nav .profile{
@@ -22,32 +22,32 @@ nav .logo img{
 }
 nav .profile .joinnow{
     background-color: red;
-    padding: 2px 4px;
+    padding: 0px 8px;
     border: none;
     border-radius: 2px;
     cursor: pointer;
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     font-family: Arial;
     font-weight: 600;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 nav .profile .joinnow:hover{
     background-color: #fff;
     color: #181818;
-    transition:0.2s ;
+    transition:0.5ms ;
 }
 nav .profile .signin{
     background-color: transparent;
     color: #fff;
-    padding: 2px 4px;
-    border: 2px solid #fff;
+    padding: 0px 8px;
+    border: 2px solid #a3a3a3;
 
 }
 nav .profile .signin:hover{
     background-color: #fff;
     color: #181818;
-    transition:0.2s ;
+    transition:0.5ms ;
 }
 
 .banner{
@@ -63,23 +63,22 @@ nav .profile .signin:hover{
     max-width:50% ;
 }
 .bannercontent{
-    padding: 10% 5%;
+    padding: 15% 10%;
 }
 .bannercontent .bannertitle h1{
-    font-size:70px ;
-    font-style:italic;
-    padding: 1px 10px;
+    font-size:30px ;
+    padding: 30px 0px;
 }
 .bannercontent .bannertitle h3{
     color: #a3a3a3;
-    padding: 1px 10px;
-
+    font-size: 10px;
+    font-weight: 400;
 }
 .bannercontent .bannertitle span{
-    padding: 0 5px;
+    padding: 30px 5px;
 }
 .bannercontent .bannertitle .a1{
-    padding: 4px 8px;
+    padding: 5px 8px;
     border:2px solid #a3a3a3;
 }
 .bannercontent .bannertitle p{
