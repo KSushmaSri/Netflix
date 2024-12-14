@@ -50,3 +50,38 @@ h3{
     font-size: 34px;
     font-weight: 1000;
 }
+footer{
+    padding: 50px 4% 10px;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: arial;
+    margin: 0 0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer select{
+    border: none;
+}
+.language{
+    border: 2px solid white;
+    width: 115px;
+    height: 35px;
+    padding: 5px 0 0  0;
+}
